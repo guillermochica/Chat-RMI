@@ -14,6 +14,6 @@ import java.rmi.RemoteException;
  */
 public interface InterfazCliente extends Remote {
     
-    public void mostrarMensaje(String login, String mensaje) throws RemoteException;
+    public void mostrarMensaje(String mensaje) throws RemoteException;
     
 }

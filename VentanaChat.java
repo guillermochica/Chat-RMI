@@ -79,7 +79,7 @@ public class VentanaChat extends javax.swing.JFrame implements InterfazCliente {
 }  
 
     @Override
-    public void mostrarMensaje(String usuario, String mensaje) {
+    public void mostrarMensaje(String mensaje) {
         
         areaMensajes.append(mensaje + "\n");
         

@@ -118,7 +118,7 @@ public class Servidor implements InterfazServidor {
             System.out.println(" Objeto remoto encontrado");
 
             //Envia el mensaje al usuario
-            instancia_local.mostrarMensaje(nombreObjetoRemoto, mensaje);
+            instancia_local.mostrarMensaje(mensaje);
             System.out.println("Mensaje enviado");
                     
         } catch (RemoteException ex) {
